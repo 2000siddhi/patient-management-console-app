@@ -1,0 +1,20 @@
+	Pharmacy Management System;
+	We will use MVC pattern to develop it.
+
+Step1: We will create the database in SSMS:
+1.	The table name will be PatientReg.
+2.	Fields will be:
+-Name, DOB, Gender, BloodGroup, Address, PhoneNumber.
+                                                     
+Step2: Then, we will create a project in visual studio (Console Application)
+1.	Here we will add entity data model,to add connection string (web.config file)
+2.	Then we will create a controller, for our CRUD operations of Patient Registration.
+Step3: Then, we will create a view,(Add View)
+1.	Here we will create a model class, as its our own model
+2.	Here we will write our html, css code.
+Step 4: now we will create a controller to see the added data,
+1.	Here we will use collection. Generic library
+2.	OR, we will make a single controller for updating the data, also reading the data or displaying the data.
+Step5: Now for Update, delete and display, we have to create a view.
+Step6: The list of all patients will be in display view.
+1.	Here we will add search and sort operations, on data (in the view itself.)
